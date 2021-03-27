@@ -50,7 +50,7 @@ public class Main {
           {} : scope (Phạm vi)
          */
 
-        int a = 12;
+        int a = 8;
         int b = 10;
         int ketqua = 0;
 
@@ -58,9 +58,12 @@ public class Main {
         // a < b = -1;
         // a == b = 0
 
-        if (a > b) ketqua = 1;
-        else if (a == b) ketqua = 0;
-        else ketqua = -1;
+//        if (a > b) ketqua = 1;
+//        else if (a == b) ketqua = 0;
+//        else ketqua = -1;
+
+//       Toán tử ba ngôi :
+        ketqua = a > b ? 1 : 0;
 
         System.out.print(ketqua);
 
