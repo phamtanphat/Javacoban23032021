@@ -82,7 +82,6 @@ public class Main {
         }
         System.out.print("Tiếp tục");
 
-        */
 
         int thang = 5;
         switch (thang){
@@ -95,5 +94,32 @@ public class Main {
             default: System.out.print("Không thuộc quí nào");
         }
         System.out.print("Thoát khỏi switch");
+
+        6 : Vòng lặp
+        */
+
+        // array : Mảng
+        //Cách 1
+        //int[] arrNums = new int[10];
+        //arrNums[0] = 1;
+        //System.out.println(arrNums[0]);
+        //System.out.println(arrNums.length);
+
+        //Cách 2
+        //int[] arrNums = {1,2,3,4,5,6,7};
+
+        int[] arrNums = {1,2,3,4,5,6,7,8,9,10};
+
+        for (int i = 0 ; i < arrNums.length ; i++){
+            if (arrNums[i] % 2 == 0){
+                if (arrNums[i] > 5 && arrNums[i] <= 8){
+                    continue;
+                }
+                System.out.println(arrNums[i]);
+            }
+        }
+
+
+
     }
 }
