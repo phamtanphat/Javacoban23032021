@@ -45,7 +45,25 @@ public class Main {
 
          Số : ++ , -- , // , **
          System.out.print(ketqua);
+
+         5 : Câu điều kiện (if else)
+          {} : scope (Phạm vi)
          */
+
+        int a = 12;
+        int b = 10;
+        int ketqua = 0;
+
+        // a > b = 1;
+        // a < b = -1;
+        // a == b = 0
+
+        if (a > b) ketqua = 1;
+        else if (a == b) ketqua = 0;
+        else ketqua = -1;
+
+        System.out.print(ketqua);
+
 
     }
 }
